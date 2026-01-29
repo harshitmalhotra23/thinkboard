@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 // create a schema
 
-const noteSchema = new mongoose.SchemaType({
+const noteSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true
